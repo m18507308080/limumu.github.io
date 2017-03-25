@@ -1,0 +1,59 @@
+# Site settings
+title: 李牧牧 Blog
+SEOTitle: 李牧牧的博客 | Limumu Blog
+header-img: http://onb688cva.bkt.clouddn.com/assets:img;home-bg.jpg
+email: m18507308080@163.com
+description: "关于后端与运维、代码与产品 | 李牧牧，Web & Mobile Lover，Java Engineer"
+keyword: "李牧牧, 牧牧, ALOHA, @牧牧, 李牧牧的博客, Limumu Blog, 博客, 个人网站, 互联网, 后端, 产品"
+url: "http://limumu.me"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# SNS settings
+RSS: true
+weibo_username:     limumu26
+zhihu_username:     limumu26
+github_username:    m18507308080
+facebook_username:  aloha26
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+input: GFM                            # use Github Flavored Markdown !important
+
+# Sidebar settings
+sidebar: true     # whether or not using Sidebar.
+sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
+sidebar-avatar: http://onb688cva.bkt.clouddn.com/assets:img:avatar-limumu.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# Friends
+friends: [
+    {
+        title: "蜜蜂少女队",
+        href: "http://www.ladybees.com/"
+    },{
+        title: "推蜜",
+        href: "http://www.tweemee.com/"
+    },{
+        title: "车知道",
+        href: "http://club.chexiang.com/"
+    }
+]
