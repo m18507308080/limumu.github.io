@@ -1,6 +1,6 @@
 # Site settings
 title: 李牧牧
-SEOTitle: 李牧牧 | limumu
+SEOTitle: 学习学习再学习
 header-img: http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg
 email: m18507308080@163.com
 description: "关于后端与运维、代码与产品 | 李牧牧，Web & Mobile Lover，Java Engineer"
@@ -36,7 +36,7 @@ input: GFM                            # use Github Flavored Markdown !important
 
 # Sidebar settings
 sidebar: true     # whether or not using Sidebar.
-sidebar-about-description: "把时间当朋友<br>学习学习再学习"
+sidebar-about-description: "把时间当朋友"
 sidebar-avatar: http://onb688cva.bkt.clouddn.com/assets:img:avatar-limumu.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Progressive Web Apps
