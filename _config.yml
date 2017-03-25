@@ -13,7 +13,6 @@ RSS: true
 weibo_username:     limumu26
 zhihu_username:     limumu26
 github_username:    m18507308080
-facebook_username:  aloha26
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
