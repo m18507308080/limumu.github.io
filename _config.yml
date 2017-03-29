@@ -1,11 +1,11 @@
 # Site settings
 title:
 SEOTitle: 李牧牧的博客 | limumu Blog
-header-img: http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg
+header-img: https://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg
 email: m18507308080@163.com
 description: "关于后端与运维、代码与产品 | 李牧牧，Web & Mobile Lover，Java Engineer"
 keyword: "李牧牧, 阿里云, @牧牧, 李牧牧的博客, Limumu Blog, 博客, 个人网站, 互联网, 后端, 产品"
-url: "http://limumu.me"              # your host, for absolute URL
+url: "https://limumu.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
@@ -29,7 +29,7 @@ gems: [jekyll-paginate]
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# document: https://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
 input: GFM                            # use Github Flavored Markdown !important
@@ -37,7 +37,7 @@ input: GFM                            # use Github Flavored Markdown !important
 # Sidebar settings
 sidebar: true     # whether or not using Sidebar.
 sidebar-about-description: "把时间当朋友"
-sidebar-avatar: http://onb688cva.bkt.clouddn.com/assets:img:avatar-limumu.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://onb688cva.bkt.clouddn.com/assets:img:avatar-limumu.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
@@ -47,12 +47,12 @@ service-worker: true
 friends: [
     {
         title: "蜜蜂少女队",
-        href: "http://www.ladybees.com/"
+        href: "https://www.ladybees.com/"
     },{
         title: "推蜜",
-        href: "http://www.tweemee.com/"
+        href: "https://www.tweemee.com/"
     },{
         title: "车知道",
-        href: "http://club.chexiang.com/"
+        href: "https://club.chexiang.com/"
     }
 ]
