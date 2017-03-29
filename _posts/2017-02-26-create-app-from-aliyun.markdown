@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "低成本搭建百万用户级APP —— 《蜜蜂少女队》"
-subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
+title:      "低成本搭建百万用户级APP"
+subtitle:   ""
 date:       2017-02-26 10:00:00
 author:     "李牧牧"
 header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
@@ -22,7 +22,7 @@ tags:
 
 > 2015年05月APP上线注册量激增
 >
-> 2016年03月浙江卫视黄金档节目播出，注册量飙升访问量增大
+> 2016年03月黄金档节目播出，注册量飙升访问量增大
 >
 > 2016年05月APP蜜决终极赛事，投票服务器Hold住高并发
 >
