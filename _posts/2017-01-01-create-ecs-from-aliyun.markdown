@@ -16,9 +16,13 @@ tags:
 
   
 
+
+
 提示：
 
 > 阿里云管理操作界面样式总会变化，但思路不会变，如果您登录的操作界面与文章示例图片不太一致，请谅解。
+
+
 
 
 
@@ -74,6 +78,8 @@ tags:
 
 
 
+
+
 ### 如何初始化配置生产服务器？
 
 > 工欲利其事，必先利其器
@@ -98,17 +104,17 @@ FreeBSD 、Debian 、CoreOS 、CentOS 、Window Server 、Aliyun Linux
 
 有次笔者在听盛大的运维来公司讲课时讲到：“很多企业的服务器硬盘里，零零散散各种文件散落在各种角落，以至于由于错乱的文件与文件夹层级关系，导致出一些生产事故，所以一定要提前约定好。”，其实不管是服务器硬盘，还是程序代码，约定优于配置真的是简单而又不失灵活性的好方法。
 
-              ***Wrrning***
-              Authorised access only
-              This system is the property of www.domain.com
-              Disconnect IMMEDIATELY if you are not an authorized user!
-              Your IP has been IDS records Don't damage any files!
+      ***Wrrning***
+      Authorised access only
+      This system is the property of www.domain.com
+      Disconnect IMMEDIATELY if you are not an authorized user!
+      Your IP has been IDS records Don't damage any files!
     
-              ***TIPS***
-              Application in app folder /app
-              Backup in backup folder /backup
-              Soft in soft folder /soft
-              Log in data folder /data
+      ***TIPS***
+      Application in app folder /app
+      Backup in backup folder /backup
+      Soft in soft folder /soft
+      Log in data folder /data
 
 这是笔者在 /etc/motd 文件中写入的提醒内容
 
