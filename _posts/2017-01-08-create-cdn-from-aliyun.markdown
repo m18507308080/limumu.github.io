@@ -2,7 +2,7 @@
 layout:     post
 title:      "如何配置阿里云CDN内容分发网络？"
 subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
-date:       2017-01-01 10:00:00
+date:       2017-01-08 10:00:00
 author:     "李牧牧"
 header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
