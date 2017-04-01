@@ -98,6 +98,8 @@ FreeBSD 、Debian 、CoreOS 、CentOS 、Window Server 、Aliyun Linux
 
 综上所述笔者选择 CentOS7.2 64位 版本，而且 CentOS7 对 Docker 服务支持较好，方便部署。
 
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170401_ecs.png)
+
 
 
 > 约定优于配置
@@ -156,9 +158,7 @@ FreeBSD 、Debian 、CoreOS 、CentOS 、Window Server 、Aliyun Linux
 
 阿里云安全分组分四种情况：外网入口、外网出口、内网入口、内网出口，我们将所有生产机的外网入与内网入口全部掐断，内网入口只允许跳板机安全组网络访问。
 
-
-
-
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170401_ecs_group.jpeg)
 
 
 
