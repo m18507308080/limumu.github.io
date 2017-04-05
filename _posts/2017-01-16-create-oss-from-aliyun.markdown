@@ -24,6 +24,19 @@ tags:
 
 
 
+### 如何配置 OSS 云存储？
+
+OSS Bucket是全网唯一的，不能与其它用户的Bucket同名。
+
+OSS针对Bucket ACL提供三种权限
+
+私有：对object的所有访问操作需要进行身份验证，需要SDK签名访问。
+公共读：对object写操作需要进行身份验证；可以对object进行匿名读。
+公共读写：所有人都可以对object进行读写操作。
+
+OSS支持日志存储，日志文件可以存储在自建的Bucket中。
+
+OSS跨域设置，将GET*，*POST*，*PUT*，*DELETE*，*HEAD全部放开。
 
 
 

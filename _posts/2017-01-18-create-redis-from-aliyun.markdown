@@ -49,8 +49,7 @@ Redis官网提供最新版下载，如果需要指定的版本，可以自行编
 > 安装Redis服务
 
 ```
-# wget http://download.redis.io/releases/redis-3.2.8.tar.gz
-# tar xzf redis-3.2.8.tar.gz
+# tar xzvf redis-3.2.8.tar.gz
 # cd redis-3.2.8
 # make PREFIX=/app/redis intall #安装到指定目录中
 ```
