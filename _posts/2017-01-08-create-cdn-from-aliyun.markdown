@@ -30,6 +30,7 @@ tags:
 源站类型有IP、OSS域名、源站域名
 加速区域
 
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_create_cdn.png)
 
 
 

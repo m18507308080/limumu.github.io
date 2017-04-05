@@ -38,6 +38,9 @@ OSS支持日志存储，日志文件可以存储在自建的Bucket中。
 
 OSS跨域设置，将GET*，*POST*，*PUT*，*DELETE*，*HEAD全部放开。
 
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_create_oss.png)
+
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_create_oss_plugin.png)
 
 
 
