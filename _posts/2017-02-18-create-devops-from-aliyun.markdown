@@ -24,7 +24,7 @@ tags:
 
 ### 知己知彼，百战不殆
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017041801_devops.png)
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017041801_devops.png?imageView2/0/q/75|watermark/2/text/5p2O54mn54mnIGxpbXVtdS5tZQ==/font/5b6u6L2v6ZuF6buR/fontsize/520/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim)
 
 我们窥探一只互联网小团队他们的运维系统功能清单
 
@@ -201,12 +201,29 @@ tags:
 
 
 ### 总结一下
+-----
+
+- [x] 选择有靠谱售后的硬件工作站并配备UPS
+- [x] 安装操作系统并将所有服务分布式容器化
+- [x] 多环境日志与备份统一云存储
+- [x] 选择部署接地气的研发辅助系统
+- [x] 配备多环境发包系统并绑定通知小秘书
+- [x] 部署Bug跟踪系统
+- [x] 独立的报表与存储系统让工作如虎添翼
 
 
 
 ### Q & A
+-----
+
+> 问 要是自己搭建这样的系统，估计工作量多大？
+
+答 企业根据自己需要，从头开始一个人两周可以基本部署完毕。
 
 
+> 问 如何设计开发高并发用户数庞大的代码软件架构？
+
+答 结合上面的文字再参考博文 [《如何设计开发高并发高可用的代码架构？》](http://www.limumu.me/2017/02/16/create-java-from-aliyun/ "如何设计开发高并发高可用的代码架构？")
 
 
 
