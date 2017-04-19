@@ -25,6 +25,7 @@ tags:
 ### 知己知彼，百战不殆
 
 ![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017041801_devops.png?imageView2/0/q/75|watermark/2/text/5p2O54mn54mnIGxpbXVtdS5tZQ==/font/5b6u6L2v6ZuF6buR/fontsize/520/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim)
+公司运维架构资源分配图  *图片来源: 李牧牧博客* 
 
 我们窥探一只互联网小团队他们的运维系统功能清单
 
