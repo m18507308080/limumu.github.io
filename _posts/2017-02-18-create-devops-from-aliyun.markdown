@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "如何零成本构建研发运维一体化？——《蜜蜂少女队》"
-subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
+title:      "如何零成本构建研发运维一体化？"
+subtitle:   "《推蜜》《蜜蜂少女队》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-02-18 10:00:00
 author:     "李牧牧"
 header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
