@@ -4,7 +4,7 @@ title:      "如何部署阿里云MQ消息队列平台？"
 subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-01-06 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.png"
 header-mask: 0.1
 catalog:    true
 tags:
