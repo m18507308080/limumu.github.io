@@ -1,14 +1,14 @@
 ![李牧牧的博客](http://www.limumu.me) limumu.me blog
 
-![](http://www.limumu.me/img/blog-me.png)
+![](http://www.limumu.me/assets/img/blog-me.png =100x100)
 
-![](http://www.limumu.me/img/blog-cheking.png)
+![](http://www.limumu.me/assets/img/blog-cheking.png)
 
-![](http://www.limumu.me/img/blog-network.png)
+![](http://www.limumu.me/assets/img/blog-network.png)
 
-![](http://www.limumu.me/img/blog-ping.png)
+![](http://www.limumu.me/assets/img/blog-ping.png)
 
-![](http://www.limumu.me/img/blog-baidu.png)
+![](http://www.limumu.me/assets/img/blog-baidu.png)
 
 本博客模版是从 GitHub作者Hux的https://github.com/Huxpro/huxpro.github.io Fork的，感谢Hux。
 
