@@ -7,7 +7,8 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/m18507308080/limumu.github.io",
-        "url": "https://git.coding.net/m18507308080/limumu.git"
+        "url": "https://git.coding.net/m18507308080/limumu.git",
+        "url": "http://git.oschina.net/18507308080/limumu.github.io"
     },
     "bugs": "https://github.com/m18507308080/limumu.github.io/issues",
     "devDependencies": {

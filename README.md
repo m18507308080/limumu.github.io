@@ -18,7 +18,7 @@
 - [x] 所有 自定义资源文件 改由 七牛云存储 获取
 - [x] 替换 多说评论插件 为 搜狐评论畅言
 - [x] 替换 百度打点 为 百度自适应打点
-- [x] 修改 _config.yml 同步提交到 GitHub.com 与 Coding.net ，解决 GitHub 被百度爬虫屏蔽问题
+- [x] 修改 package.json 同步提交到 GitHub.com 与 Coding.net ，解决 GitHub 被百度爬虫屏蔽问题
 - [x] 添加 搜狐畅言打赏功能
 - [x] 添加 百度多渠道分享
 - [x] 去除了 Disqus、多说、Tag、Catalog、Google Analytics功能提升速度与体验
