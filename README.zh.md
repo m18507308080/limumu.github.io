@@ -1,12 +1,18 @@
-### [李牧牧的博客](http://www.limumu.me) limumu.me blog
+###limumu blog 模板
+------
 
+[李牧牧的博客](http://www.limumu.me) limumu.me blog
 
 ![](http://www.limumu.me/assets/img/blog-me.png)
 
+### 关于模版
 
-本博客模版是从 GitHub作者 [Hux Blog](https://github.com/Huxpro) 的 https://github.com/Huxpro/huxpro.github.io Fork的，感谢Hux。
+我的博客模版是从作者 [Hux Blog](https://github.com/Huxpro) 的 https://github.com/Huxpro/huxpro.github.io Fork的，感谢Hux。
 
-### 在作者框架基础上作了如下变化：
+### 修改了哪些东西
+------
+
+> 在作者框架基础上作了如下变化
 
 - [x] 所有 开源工具库 改由 cdn.bootcss.com 获取
 - [x] 所有 自定义资源文件 改由 七牛云存储 获取
@@ -18,6 +24,7 @@
 - [x] 去除了 Disqus、多说、Tag、Catalog、Google Analytics功能提升速度与体验
 
 ### 核心文件结构说明
+------
 
 - [x] _config.yml 个人资料、基础配置
 - [x] index.html  首页固定模版，百度统计
@@ -43,4 +50,7 @@
 
 ![](http://www.limumu.me/assets/img/blog-baidu.png)
 
-### 感谢 Jekyll、Github Pages、[Hux Blog](https://github.com/Huxpro)!
+
+### 感谢
+------
+Jekyll、Github Pages、[Hux Blog](https://github.com/Huxpro)!
