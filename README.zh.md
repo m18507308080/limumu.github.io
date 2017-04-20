@@ -25,13 +25,19 @@
 - [x] _layouts/post.html 文章详情模版，畅言评论插件、打赏功能、百度多渠道分享
 - [x] _posts/*.markdown 此目录文章自动编译为静态模版并按日期显示在首页
 
+------
+
+> 支付宝、微信打赏
 
 ![](http://www.limumu.me/assets/img/blog-cheking.png)
 
+> 页面资源加载
 ![](http://www.limumu.me/assets/img/blog-network.png)
 
+> 全国网络测试
 ![](http://www.limumu.me/assets/img/blog-ping.png)
 
+> 百度爬虫收录情况
 ![](http://www.limumu.me/assets/img/blog-baidu.png)
 
-感谢 Jekyll、Github Pages、Hux Blog!
+### 感谢 Jekyll、Github Pages、Hux Blog!
