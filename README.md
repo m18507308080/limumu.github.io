@@ -1,10 +1,10 @@
-[李牧牧的博客](http://www.limumu.me) limumu.me blog
+### [李牧牧的博客](http://www.limumu.me) limumu.me blog
 
 
 ![](http://www.limumu.me/assets/img/blog-me.png)
 
 
-本博客模版是从 GitHub作者Hux的https://github.com/Huxpro/huxpro.github.io Fork的，感谢Hux。
+本博客模版是从 GitHub作者 [Hux Blog](https://github.com/Huxpro) 的 https://github.com/Huxpro/huxpro.github.io Fork的，感谢Hux。
 
 ### 在作者框架基础上作了如下变化：
 
@@ -32,12 +32,15 @@
 ![](http://www.limumu.me/assets/img/blog-cheking.png)
 
 > 页面资源加载
+
 ![](http://www.limumu.me/assets/img/blog-network.png)
 
 > 全国网络测试
+
 ![](http://www.limumu.me/assets/img/blog-ping.png)
 
 > 百度爬虫收录情况
+
 ![](http://www.limumu.me/assets/img/blog-baidu.png)
 
-### 感谢 Jekyll、Github Pages、Hux Blog!
+### 感谢 Jekyll、Github Pages、[Hux Blog](https://github.com/Huxpro)!
