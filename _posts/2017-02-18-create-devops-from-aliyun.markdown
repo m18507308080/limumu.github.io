@@ -85,7 +85,7 @@ tags:
 - [x] 数据中心与业务线各自独立使用物理服务器
 - [x] 给服务器配备 UPS 应急电源
 
-[如何给服务器安装操作系统？](http://www.limumu.me/2017/02/01/create-os-from-server/ "如何给服务器安装操作系统？")  - 来源 李牧牧博客
+[如何给服务器安装操作系统？](http://www.limumu.me/2017/02/12/create-os-from-server/ "如何给服务器安装操作系统？")  - 来源 李牧牧博客
 
 
 
@@ -102,7 +102,7 @@ tags:
 - [x] Docker       应用容器引擎，可移植性好保障线上线下环境一致性，操作简单。
 
 
-[如何部署分布式Docker容器服务？](http://www.limumu.me/2017/02/01/create-docker-from-os/ "如何部署分布式Docker容器服务？")  - 来源 李牧牧博客
+[如何部署分布式Docker容器服务？](http://www.limumu.me/2017/02/11/create-docker-from-os/ "如何部署分布式Docker容器服务？")  - 来源 李牧牧博客
 
 
 
@@ -111,7 +111,7 @@ tags:
 
 当业务服务慢慢增多时，如何合理安排好日志文件与应用版本包备份存放位置变得尤为重要，如果日志业务量大小还不需要（ElasticSearch＋LogStash＋Kibana）采集、清洗、分析日志数据的话，如何简单有效的将多台物理机的各种环境日志统一管理备份起来。
 
-[如何借助阿里云OSS备份全环境日志？](http://www.limumu.me/2017/02/02/create-logback-from-oss/ "如何借助阿里云OSS备份全环境日志？")  - 来源 李牧牧博客
+[如何借助阿里云OSS备份全环境日志？](http://www.limumu.me/2017/02/10/create-logback-from-oss/ "如何借助阿里云OSS备份全环境日志？")  - 来源 李牧牧博客
 
 
 
@@ -127,7 +127,7 @@ tags:
 - [ ] OSChina    业界良心的代码版本在线管理平台
 - [x] GitLab        开源免费支持公司内部本地化安装
 
-[如何一键部署GitLab代码版本管理平台？](http://www.limumu.me/2017/02/03/create-gitlab-from-bitnami/ "如何一键部署GitLab代码版本管理平台？")  - 来源 李牧牧博客
+[如何一键部署GitLab代码版本管理平台？](http://www.limumu.me/2017/02/09/create-gitlab-from-bitnami/ "如何一键部署GitLab代码版本管理平台？")  - 来源 李牧牧博客
 
 
 
@@ -135,7 +135,7 @@ tags:
 
 世上的开源项目多如牛毛，很多开源项目的代码并不能直接复用在自己公司的项目中，有的研发工程会自己研发工具，有的会将开源项目或者开源工具根据公司业务稍作修改，让公司内部开发更有效率，但像这样的改动是不好上传到公网服务器给大家共用的，那么就需要公司自己拥有一套项目库管理私服平台。
 
-[如何快速搭建Maven私服？](http://www.limumu.me/2017/02/04/create-maven-from-docker/ "如何快速搭建Maven私服？")  - 来源 李牧牧博客
+[如何快速搭建Maven私服？](http://www.limumu.me/2017/02/08/create-maven-from-docker/ "如何快速搭建Maven私服？")  - 来源 李牧牧博客
 
 
 
@@ -143,11 +143,11 @@ tags:
 
 不管是移动应用后端架构还是传统软件项目，缓存系统、队列系统、主从数据库都是让产品更优秀的必须品，而每次需要新增这样的服务时都需要经历中间价软件的下载、安装、配置、调试的过程，如何才能有效率的快速搭建呢。
 
-[如何使用Docker安装数据库？](http://www.limumu.me/2017/02/05/create-mysql-from-docker/ "如何使用Docker安装数据库？")  - 来源 李牧牧博客
+[如何使用Docker安装数据库？](http://www.limumu.me/2017/02/07/create-mysql-from-docker/ "如何使用Docker安装数据库？")  - 来源 李牧牧博客
 
-[如何使用Docker安装Redis缓存？](http://www.limumu.me/2017/02/06/create-redis-from-docker/ "如何使用Docker安装Redis缓存？")  - 来源 李牧牧博客
+[如何使用Docker安装Redis缓存？](http://www.limumu.me/2017/01/18/create-redis-from-aliyun/ "如何使用Docker安装Redis缓存？")  - 来源 李牧牧博客
 
-[如何使用Docker安装ActiveMQ队列？](http://www.limumu.me/2017/02/07/create-activemq-from-docker/ "如何使用Docker安装ActiveMQ队列？")  - 来源 李牧牧博客
+[如何使用Docker安装ActiveMQ队列？](http://www.limumu.me/2017/01/06/create-mq-from-aliyun.markdown/ "如何使用Docker安装ActiveMQ队列？")  - 来源 李牧牧博客
 
 
 
@@ -155,7 +155,7 @@ tags:
 
 后端数据服务项目总是项目的重头戏，前后端业务线长自然项目就多，并且每个项目都有开发环境、测试环境、预生产环境、生产环境，如果将开发兼运维从命令行中解救出来，最低限度的避免出错，这就需要搭建一套自动化持续构建发包系统。
 
-[如何使用Docker安装Jenkins？](http://www.limumu.me/2017/02/08/create-jenkins-from-docker/ "如何使用Docker安装Jenkins？")  - 来源 李牧牧博客
+[如何使用Docker安装Jenkins？](http://www.limumu.me/2017/02/06/create-jenkins-from-docker/ "如何使用Docker安装Jenkins？")  - 来源 李牧牧博客
 
 
 
@@ -164,7 +164,7 @@ tags:
 
 当项目迭代版本验收时，总需要将项目发布到对应的环境上，此时测试有可能正在工作，突然就无响应了，虽然自动化持续构建发包系统有邮件通知，但往往不太及时并且有的测试还不定会看到。另外到项目线上环境出现大的事故时如果及时提醒团队人员及时修复呢。可以利用 GitHub 上的一个项目，它会创造 QQ 聊天机器人，通过接口调用来完成发包消息与异常消息及时提醒服务。 
 
-[如何使用Docker部署QQ小秘书？](http://www.limumu.me/2017/02/09/create-qq-from-docker/ "如何使用Docker部署QQ小秘书？")  - 来源 李牧牧博客
+[如何使用Docker部署QQ小秘书？](http://www.limumu.me/2017/02/05/create-qq-from-docker/ "如何使用Docker部署QQ小秘书？")  - 来源 李牧牧博客
 
 
 
@@ -172,7 +172,7 @@ tags:
 
 在实际工作中，当产品经理提交产品文档并约定好进测日期时，后端工程师第一件事出了分配工作任务外，就是将业务转换为接口文档，提供挡板数据，让前端可以同步开发从而不耽误开发进度，那么搭建一套Wiki文档系统尤为重要。
 
-[如何使用Docker部署Wiki文档协助系统？](http://www.limumu.me/2017/02/10/create-wiki-from-docker/ "如何使用Docker部署Wiki文档协助系统")  - 来源 李牧牧博客
+[如何使用Docker部署Wiki文档协助系统？](http://www.limumu.me/2017/02/04/create-wiki-from-docker/ "如何使用Docker部署Wiki文档协助系统")  - 来源 李牧牧博客
 
 
 
@@ -181,7 +181,7 @@ tags:
 
 产品开始验收，每当有 Bug 出现，测试人员如果将问题描述给开发并控制 Bug 进度，测试组长如何统计 测试工作 KPI，那么搭建功能完善的产品Bug跟踪系统必不可少。
 
-[如何使用Docker搭建Jira产品Bug跟踪系统？](http://www.limumu.me/2017/02/11/create-jira-from-docker/ "如何使用Docker搭建Jira产品Bug跟踪系统？")  - 来源 李牧牧博客
+[如何使用Docker搭建Jira产品Bug跟踪系统？](http://www.limumu.me/2017/02/03/create-jira-from-docker/ "如何使用Docker搭建Jira产品Bug跟踪系统？")  - 来源 李牧牧博客
 
 
 
@@ -189,7 +189,7 @@ tags:
 
 数据报表是企业运营与营销团队的利器，不定期的各种报表需求非常多，如果每次都经历分析需求、设计界面、画页面、写代码、填充数据、测试、发包，往往会浪费很多时间，耽误市场部工作效率，那么对于小团队来说，部署一套开源免费、稳定方便的报表系统尤其重要。
 
-[如何使用Docker搭建ReportServer报表系统？](http://www.limumu.me/2017/02/12/create-bi-from-docker/ "如何使用Docker搭建ReportServer报表系统")  - 来源 李牧牧博客
+[如何使用Docker搭建ReportServer报表系统？](http://www.limumu.me/2017/02/02/create-bi-from-docker/ "如何使用Docker搭建ReportServer报表系统")  - 来源 李牧牧博客
 
 
 
@@ -197,7 +197,7 @@ tags:
 
 产品文档、项目文档、需求分析、常用软件、工具系统、历史渠道包都需要存放位置，市面上有许多优秀强大的工具，他们要么有容量限制、要么有人数限制或者项目限制，部署一套自己的FTP存储系统方便公司内部使用。
 
-[如何使用Docker搭建 FTP 系统？](http://www.limumu.me/2017/02/13/create-ftp-from-docker/ "如何使用Docker搭建 FTP 系统？")  - 来源 李牧牧博客
+[如何使用Docker搭建 FTP 系统？](http://www.limumu.me/2017/02/01/create-ftp-from-docker/ "如何使用Docker搭建 FTP 系统？")  - 来源 李牧牧博客
 
 
 
