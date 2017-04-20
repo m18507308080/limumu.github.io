@@ -1,6 +1,8 @@
-![李牧牧的博客](http://www.limumu.me) limumu.me blog
+[李牧牧的博客](http://www.limumu.me) limumu.me blog
+
 
 ![](http://www.limumu.me/assets/img/blog-me.png)
+
 
 本博客模版是从 GitHub作者Hux的https://github.com/Huxpro/huxpro.github.io Fork的，感谢Hux。
 
@@ -13,6 +15,7 @@
 - [x] 修改 _config.yml 同步提交到 GitHub.com 与 Coding.net ，解决 GitHub 被百度爬虫屏蔽问题
 - [x] 添加 搜狐畅言打赏功能
 - [x] 去除了 Disqus、多说、Tag、Catalog、Google Analytics功能提升速度与体验
+
 
 ![](http://www.limumu.me/assets/img/blog-cheking.png)
 
