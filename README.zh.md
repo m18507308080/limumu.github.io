@@ -45,6 +45,10 @@
 
 ![](http://www.limumu.me/assets/img/blog-ping.png)
 
+> 国际网络测试
+
+![](http://www.limumu.me/assets/img/blog-ping-group.png)
+
 > 百度爬虫收录情况
 
 ![](http://www.limumu.me/assets/img/blog-baidu.png)
