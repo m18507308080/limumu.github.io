@@ -36,19 +36,19 @@ tags:
 
 # 工欲利其事，必先利其器
 
-想必童鞋们首次接触到的操作系统都是 Microsoft Windows 系列，注重用户体验的微软公司拥有大量的忠实粉丝，大量的用户群体与社区让 Windows 操作系统安装方式多种多样：光盘安装、ISO镜像安装、GHOST一键还原、U盘安装，其中最方便快速的方式莫过于 U盘安装 ，Linux 也可以通过 U 盘安装的方式部署操作系统，接下来我们来看看如何操作。
+想必童鞋们首次接触到的操作系统都是 `Microsoft Windows` 系列，注重用户体验的微软公司拥有大量的忠实粉丝，大量的用户群体与社区让` Windows` 操作系统安装方式多种多样：光盘安装、`ISO`镜像安装、`GHOST`一键还原、U盘安装，其中最方便快速的方式莫过于 U盘安装 ，`Linux` 也可以通过 U 盘安装的方式部署操作系统，接下来我们来看看如何操作。
 
 
 
 - [x] 物理计算机
 
-给物理计算机挑选配置主要看这台服务器未来的业务范围与大小，假如用于安装关系型数据库、Key-Value数据库、分布式文件存储的数据库，类似这样的作为数据中心使用的话，建议配置着重点在硬盘大小与读写读写可靠性，内存大小与CPU，如果用于 Java 后端应用、运营平台，那么配置着重点在内存大小与CPU，另外如果公司业务线不长，只是一个小型的移动应用开发企业，普通的小型工作站就完全可以满足需求，费用甚至低于普通PC个人电脑。
+给物理计算机挑选配置主要看这台服务器未来的业务范围与大小，假如用于安装关系型数据库、Key-Value数据库、分布式文件存储的数据库，类似这样的作为数据中心使用的话，建议配置着重点在硬盘大小与读写读写可靠性，内存大小与`CPU`，如果用于 `Java` 后端应用、运营平台，那么配置着重点在内存大小与`CPU`，另外如果公司业务线不长，只是一个小型的移动应用开发企业，普通的小型工作站就完全可以满足需求，费用甚至低于普通PC个人电脑。
 
 - [x] 4G 空间以上 U盘
 
-正式发行版 Linux 镜像一般在 3-4G ，如果空间不足的话就无法使用 U盘 安装操作系统。
+正式发行版 `Linux` 镜像一般在 3-4G ，如果空间不足的话就无法使用 U盘 安装操作系统。
 
-- [x] CentOS 7 系统镜像文件
+- [x] `CentOS 7` 系统镜像文件
 
  [阿里云开源镜像站](http://mirrors.aliyun.com/centos/ "阿里云开源镜像站")  - 来源 阿里云
 
@@ -67,7 +67,7 @@ tags:
 
 ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323002.jpg)
 
-到这里我们成功的安装了U盘工具，一般称它为U盘PE工具系统，有了它就可以删除服务器自带操作系统和分区的工具了，接下来需要将服务器的 BIOS 设置为开机时读取 U盘数据，每台品牌计算机都有默认的快捷设置按钮，只需在开机时不停的敲入对应按钮就可以直接进入U盘PE工具系统。
+到这里我们成功的安装了U盘工具，一般称它为U盘PE工具系统，有了它就可以删除服务器自带操作系统和分区的工具了，接下来需要将服务器的 `BIOS` 设置为开机时读取 U盘数据，每台品牌计算机都有默认的快捷设置按钮，只需在开机时不停的敲入对应按钮就可以直接进入U盘PE工具系统。
 
  [各品牌电脑开机启动菜单快捷键](http://blog.sina.com.cn/s/blog_52330bed01010yw9.html "各品牌电脑开机启动菜单快捷键")  - 来源 lxing20
 
@@ -82,21 +82,21 @@ tags:
 
  ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323007.jpg)
 
-上图中将 HD0 硬盘中的所有主分区与扩张分区全部删除，图中删除本地磁盘C与扩张分区，到这里已经成功将服务器自带的操作系统与分区抹除，接下来就可以安装 CentOS 了，首先回到个人PC电脑端，将 插在服务器的U盘插入到 PC个人电脑中，打开老毛桃工具，选择 ISO模式，选择插入的U盘，选择下载好的CentOS镜像文件，点击制作并确认格式化模式对话框。
+上图中将 `HD0` 硬盘中的所有主分区与扩张分区全部删除，图中删除本地磁盘C与扩张分区，到这里已经成功将服务器自带的操作系统与分区抹除，接下来就可以安装 `CentOS` 了，首先回到个人PC电脑端，将 插在服务器的U盘插入到 PC个人电脑中，打开老毛桃工具，选择 `ISO`模式，选择插入的U盘，选择下载好的`CentOS`镜像文件，点击制作并确认格式化模式对话框。
 
   ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323008.jpg)
 
   ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323009.jpg)
 
-写入的过程有点缓慢，USB 3.0 的U盘写入速度会快一些，这里需要注意几个问题：
+写入的过程有点缓慢，`USB 3.0` 的U盘写入速度会快一些，这里需要注意几个问题：
 
 1. U盘读写质量会影响到成功率，劣质的U盘会导致写入虽然提示成功，但是系统依然读取不了。
-2. 写入成功后，需要修改U盘名称，因为当BIOS从U盘启动时会通过 GRUB 命令识别U盘名称，一旦出现了空格、特殊字符就会出现一直停留在启动界面的情况，所以需要修改U盘名称， 越简单越好大小写区分，比如取名：USB。
-3. 通常当 U盘 插入到服务器时，启动服务器并通过启动项快捷键让服务器从U盘启动到安装界面，这个过程是很快的，假如一直停留在加载界面，说明 Grub 找不到 U盘 ，需要修改 U盘的名称为 （方法2）中取名的USB，回车再次加载启动，就可以了。
+2. 写入成功后，需要修改U盘名称，因为当`BIOS`从U盘启动时会通过 `GRUB` 命令识别U盘名称，一旦出现了空格、特殊字符就会出现一直停留在启动界面的情况，所以需要修改U盘名称， 越简单越好大小写区分，比如取名：`USB`。
+3. 通常当 U盘 插入到服务器时，启动服务器并通过启动项快捷键让服务器从U盘启动到安装界面，这个过程是很快的，假如一直停留在加载界面，说明 `Grub` 找不到 U盘 ，需要修改 U盘的名称为 （方法2）中取名的`USB`，回车再次加载启动，就可以了。
 
  [为什么 USB 3.0 U盘读写会快？](https://www.zhihu.com/question/28081066 "为什么 USB 3.0 U盘读写会快？")  - 来源 知乎
 
-如果一切正常，开始安装操作系统，同样的将U盘插入服务器，并根据品牌选择启动项快捷键，进入到 CentOS 安装界面。
+如果一切正常，开始安装操作系统，同样的将U盘插入服务器，并根据品牌选择启动项快捷键，进入到 `CentOS` 安装界面。
 
   ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323010.jpg)
 
@@ -110,22 +110,141 @@ tags:
 
 
 
+# 约定优于配置
+
+有次笔者在听盛大的运维来公司讲课时讲到：“很多企业的服务器硬盘里，零零散散各种文件散落在各种角落，以至于由于错乱的文件与文件夹层级关系，导致出一些生产事故，所以一定要提前约定好。”，其实不管是服务器硬盘，还是程序代码，约定优于配置真的是简单而又不失灵活性的好方法。
+
+```
+  ***Wrrning***
+  Authorised access only
+  This system is the property of www.domain.com
+  Disconnect IMMEDIATELY if you are not an authorized user!
+  Your IP has been IDS records Don't damage any files!
+
+  ***TIPS***
+  Application in app folder /app
+  Backup in backup folder /backup
+  Soft in soft folder /soft
+  Log in data folder /data
+```
+
+这是笔者在 /etc/motd 文件中写入的提醒内容
+
+- 所有应用程序放在 /app 
+- 所有备份文件放在 /backup
+- 所有软件文件放在 /soft
+- 所有日志文件放在 /data
+
+日志文件所在的文件夹，每月将日志数据用 `Shell` 脚本上传到 `OSS` 分片存储文件夹。
+
+[如何使用 Linux Shell 上传文件到 OSS云存储？ ](https://bbs.aliyun.com/simple/t233456.html "如何使用 Linux Shell 上传文件到 OSS云存储？ ")  - 来源 阿里云
+
+优化服务器参数，将更改默认`SSH`端口号。
+
+[如何优化服务器参数提高并发能力？](http://www.ha97.com/4396.html "如何优化服务器参数提高并发能力？")  - 来源 博客教主
 
 
 
+# 服务虚拟化之路
 
-### 
+我们使用Docker的第一步，应该是获取一个官方的镜像，例如`mysql`、`wordpress`，基于这些基础镜像我们可以开发自己个性化的应用。我们可以使用`Docker`命令行工具来下载官方镜像。
+但是因为网络原因，我们下载一个300M的镜像需要很长的时间，甚至下载失败。因为这个原因，阿里云容器Hub服务提供了官方的镜像站点加速官方镜像的下载速度。
+
+> 下载阿里云Docker加速器 
+
+```
+curl -sSL http://acs-public-mirror.oss-cn-hangzhou.aliyuncs.com/docker-engine/internet | sh -
+```
+
+> 针对Docker客户端版本大于1.10的用户
+
+- 您可以通过修改daemon配置文件`/etc/docker/daemon.json`来使用加速器：
+
+  ```
+  sudo mkdir -p /etc/docker
+  sudo tee /etc/docker/daemon.json <<-'EOF'
+  {
+    "registry-mirrors": ["https://hx11cpdt.mirror.aliyuncs.com"]
+  }
+  EOF
+  sudo systemctl daemon-reload
+  sudo systemctl restart docker
+  ```
+
+>  针对Docker客户的版本小于等于1.10的用户
+
+或者想配置启动参数，可以使用下面的命令将配置添加到`docker daemon`的启动参数中。
+
+- 系统要求 CentOS 7 以上，Docker 1.9 以上。
+
+  ```
+  sudo cp -n /lib/systemd/system/docker.service /etc/systemd/system/docker.service
+
+  ```
+
+- Docker 1.12 以下版本使用 docker daemon 命令
+
+  ```
+  sudo sed -i "s|ExecStart=/usr/bin/docker daemon|ExecStart=/usr/bin/docker daemon --registry-mirror=https://qxx96o44.mirror.aliyuncs.com|g" /etc/systemd/system/docker.service
+  ```
+
+- Docker 1.12 及以上版本使用 dockerd 命令，这里`https://xxxxxxx.mirror.aliyuncs.com` 地址需要注册阿里云的免费账户才能提供。
+
+  ```
+  sudo sed -i "s|ExecStart=/usr/bin/dockerd|ExecStart=/usr/bin/dockerd --registry-mirror=https://xxxxxxx.mirror.aliyuncs.com|g" /etc/systemd/system/docker.service
+  sudo systemctl daemon-reload
+  sudo service docker restart
+  ```
+
+ [使用阿里云 Docker 镜像加速器](https://yq.aliyun.com/articles/29941 "使用阿里云 Docker 镜像加速器")  - 来源 阿里云
 
 
 
+> 安装 Docker 集中化 Web 可视化管理平台 Shipyard
+
+主机安装脚本
+
+```
+docker run -ti -d --restart=always --name shipyard-rethinkdb rethinkdb
+
+docker run -ti -d -p 4001:4001 -p 7001:7001 --restart=always --name shipyard-discovery microbox/etcd -name discovery
+
+docker run -ti -d -p 2375:2375 --hostname=$HOSTNAME --restart=always --name shipyard-proxy -v /var/run/docker.sock:/var/run/docker.sock -e PORT=2375 shipyard/docker-proxy:latest
+
+docker run -ti -d --restart=always --name shipyard-swarm-manager swarm:latest manage --replication --addr 192.168.200.5:3375 --host tcp://0.0.0.0:3375 etcd://192.168.200.5:4001
+
+docker run -ti -d --restart=always --name shipyard-swarm-agent swarm:latest join --addr 192.168.200.5:2375 etcd://192.168.200.5:4001
+
+docker run -ti -d --restart=always --name shipyard-controller --link shipyard-rethinkdb:rethinkdb --link shipyard-swarm-manager:swarm -p 192.168.200.200:80:8080 shipyard/shipyard:latest server -d tcp://swarm:3375
+```
+
+如何有其他物理机要加入 Docker 集中管理 只需执行 从机脚本
+
+```
+docker run -ti -d -p 2375:2375 --hostname=$HOSTNAME --restart=always --name shipyard-proxy -v /var/run/docker.sock:/var/run/docker.sock -e PORT=2375 shipyard/docker-proxy:latest
+
+docker run -ti -d --restart=always --name shipyard-swarm-manager swarm:latest \manage --replication --addr 192.168.200.6:3375 --host tcp://0.0.0.0:3375 etcd://192.168.200.5:4001
+
+docker run -ti -d --restart=always --name shipyard-swarm-agent swarm:latest join --addr 192.168.200.6:2375 etcd://192.168.200.5:4001
+```
+
+ [ 如何部署 Docker Shipyard？](http://www.jianshu.com/p/f9f855f8f3f4 "如何部署 Docker Shipyard？")  - 来源 知乎
+
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323011.jpg)
+
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323012.jpg)
 
 
 
+# Q&A
+> 问 要是自己搭建这样的系统，估计工作量多大？
 
+答 企业根据自己需要，从头开始一个人两周可以基本部署完毕。
 
+> 问 如何将公司内网测试环境与阿里云生产打通，并持续集成呢？
 
+答 结合本文参考另一篇博文 [《如何零成本构建研发运维一体化？》](http://www.limumu.me/2017/02/18/create-devops-from-aliyun/ "如何零成本构建研发运维一体化？")
 
+> 问 如何设计开发高并发用户数庞大的代码软件架构？
 
-
-
-
+答 结合上面的文字再参考博文 [《如何设计开发高并发高可用的代码架构？》](http://www.limumu.me/2017/02/16/create-java-from-aliyun/ "如何设计开发高并发高可用的代码架构？")
