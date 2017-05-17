@@ -32,7 +32,7 @@ tags:
 
   
 
-## 困境
+# 困境
 
 ![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017041701_aliyun.png)
 
@@ -46,7 +46,7 @@ tags:
 
 
 
-## 什么服务是烧钱的货？
+# 什么服务是烧钱的货？
 
 ![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017041702_aliyun.png)
 
@@ -75,7 +75,7 @@ tags:
 
 
 
-## 为什么要借力阿里云？
+# 为什么要借力阿里云？
 
 ![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017041703_aliyun.png)
 
@@ -86,7 +86,7 @@ tags:
 
 
 
-## 如何部署高可用的云系统？
+# 如何部署高可用的云系统？
 
 ![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170327174031.png?imageView2/0/q/75|watermark/2/text/5p2O54mn54mnIGxpbXVtdS5tZQ==/font/5b6u6L2v6ZuF6buR/fontsize/520/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim)
 ***阿里云生产架构资源分配图***  *图片来源: 李牧牧博客* 
@@ -176,7 +176,7 @@ tags:
 
 
 
-## 百万用户的应用开销多少？
+# 百万用户的应用开销多少？
 
 ![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017041704_aliyun.png)
 
@@ -220,9 +220,7 @@ tags:
 
 
 
-### 总结一下
------
-
+# 总结一下
 - [x] 业务服务器集群化，配备SLB负载均衡
 - [x] 尽可能利用缓存系统
 - [x] 耗时操作全部MQ异步队列化
@@ -235,9 +233,7 @@ tags:
 
 
 
-### Q&A
------
-
+# Q&A
 > 问 要是自己搭建这样的系统，估计工作量多大？
 
 答 企业根据自己需要，从头开始一个人两周可以基本部署完毕。
