@@ -4,7 +4,7 @@ title:      "如何搭建阿里云主从RDS数据库并配置安全规则？"
 subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-01-26 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://cdn.static.limumu.me/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -31,11 +31,11 @@ RDS是阿里云提供的关系型数据库服务，是将直接运行于物理�
 
 > RDS 1核1G基础配置：单机版83元每月，高可用版132元每月
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_rds_single.png)
+![](http://cdn.static.limumu.me/assets:post:img:20170405_rds_single.png)
 
 
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_rds_backup.png)
+![](http://cdn.static.limumu.me/assets:post:img:20170405_rds_backup.png)
 
 
 

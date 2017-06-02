@@ -4,7 +4,7 @@ title:      "如何借助阿里云OSS备份全环境日志？"
 subtitle:   ""
 date:       2017-02-10 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://cdn.static.limumu.me/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -38,7 +38,7 @@ tags:
 
  [ OSS 管理工具客户端 ](https://market.aliyun.com/store/55050-2.html?spm=5176.mktshop55050.4.1.ip9G0X "OSS 管理工具客户端 ")  - 来源 驻云科技
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323014.jpg)
+![](http://cdn.static.limumu.me/assets:post:img:201705161323014.jpg)
 
 
 

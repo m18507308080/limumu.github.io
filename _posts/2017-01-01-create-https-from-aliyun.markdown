@@ -4,7 +4,7 @@ title:      "如何配置租赁数字证书？"
 subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-01-01 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://cdn.static.limumu.me/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -29,9 +29,9 @@ tags:
 阿里云安全证书由多家供应商提供，免费版能支持单个域名但不支持通配符，申请安全证书后直接推送至SLB负载均衡。
 
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_create_https.png)
+![](http://cdn.static.limumu.me/assets:post:img:20170405_create_https.png)
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_create_https_plugin.png)
+![](http://cdn.static.limumu.me/assets:post:img:20170405_create_https_plugin.png)
 
 
 

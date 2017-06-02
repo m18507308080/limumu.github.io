@@ -4,7 +4,7 @@ title:      "如何快速搭建Maven私服？"
 subtitle:   ""
 date:       2017-02-08 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://cdn.static.limumu.me/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -20,7 +20,7 @@ tags:
 
 > 公司开发项目的过程中，会使用一些开源框架、第三方的工具等等，这些都是以`jar`包的方式被项目所引用，并且有些`jar`包还会依赖其他的`jar`包，我们同样需要添加到项目中，所有这些相关的`jar`包都会作为项目的依赖。
 
- ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171115000.png)
+ ![](http://cdn.static.limumu.me/assets:post:img:201705171115000.png)
 
 
 
