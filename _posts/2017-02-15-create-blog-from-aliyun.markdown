@@ -24,11 +24,11 @@ tags:
 
 ![](http://cdn.static.limumu.me/assets:post:img:2017061301.png)
 
-#### 关于模版
+##### 关于模版
 
 我的博客模版是从作者 [Hux Blog](https://github.com/Huxpro/huxpro.github.io) Fork的，感谢Hux。
 
-#### 修改了哪些东西
+##### 修改了哪些东西
 
 > 在作者框架基础上作了如下变化
 
@@ -41,7 +41,7 @@ tags:
 - [x] 添加 百度多渠道分享
 - [x] 去除了 Disqus、多说、Tag、Catalog、Google Analytics功能提升速度与体验
 
-####  核心文件结构说明
+#####  核心文件结构说明
 
 - [x] _config.yml 个人资料、基础配置
 - [x] index.html 首页固定模版，百度统计
@@ -49,26 +49,26 @@ tags:
 - [x] _layouts/post.html 文章详情模版，畅言评论插件、打赏功能、百度多渠道分享
 - [x] _posts/*.markdown 此目录文章自动编译为静态模版并按日期显示在首页
 
-####  支付宝、微信打赏
+#####  支付宝、微信打赏
 
 ![](http://cdn.static.limumu.me/assets:post:img:2017061302.png)
 
 
-####  高速页面资源加载
+#####  高速页面资源加载
 
 ![](http://cdn.static.limumu.me/assets:post:img:2017061303.png)
 
 
-####  全国网络访问测速
+#####  全国网络访问测速
 
 ![](http://cdn.static.limumu.me/assets:post:img:2017061304.png)
 
-####  国际网络访问测速
+#####  国际网络访问测速
 
 ![](http://cdn.static.limumu.me/assets:post:img:2017061305.png)
 
 
-####  百度爬虫收录情况
+#####  百度爬虫收录情况
 
 ![](http://cdn.static.limumu.me/assets:post:img:2017061306.png)
 
