@@ -18,10 +18,6 @@ description: "为了无法计算的价值 - 引用自《阿里云》"
             {{ post.content | strip_html | truncate:200 }}
         </div>
     </a>
-    <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-        <source id="mp4" src="https://d10.baidupcs.com/file/c2a29058f0550fd03d9b050597a85693?bkt=p3-1400c2a29058f0550fd03d9b050597a856931b7854c9000000246ebe&xcode=7f652569cd182eb98ea8a8a2d5c4a739163116b99da273b4&fid=1250430118-250528-245595343627745&time=1500366967&sign=FDTAXGERBHS-DCb740ccc5511e5e8fedcff06b081203-VTLqSrnQwPufO7CNbsgTKo2VZHk%3D&to=d10&size=2387646&sta_dx=2387646&sta_cs=129&sta_ft=mp4&sta_ct=5&sta_mt=5&fm2=MH,Guangzhou,Netizen-anywhere,,shanghai,ct&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=1400c2a29058f0550fd03d9b050597a856931b7854c9000000246ebe&expires=8h&rt=sh&r=951503785&mlogid=4608222572514687072&vuk=1250430118&vbdid=1209358022&fin=0%E7%AE%80%E4%BB%8B+%284%29_rec.mp4&fn=0%E7%AE%80%E4%BB%8B+%284%29_rec.mp4&rtype=1&iv=2&dp-logid=4608222572514687072&dp-callid=0.1.1&hps=1&csl=0&csign=oobpi5KIde405Zs1NHco%2BSpkmkE%3D&so=0&ut=1&uter=4&serv=1&by=themis" type="video/mp4">
-        <p>Your user agent does not support the HTML5 Video element.</p>
-    </video>
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
