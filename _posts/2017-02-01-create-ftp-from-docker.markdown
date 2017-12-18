@@ -4,7 +4,7 @@ title:      "如何使用Docker搭建 FTP 系统？"
 subtitle:   ""
 date:       2017-02-01 10:00:00
 author:     "李牧牧"
-header-img: "http://cdn.static.limumu.me/assets:img:home-bg.jpg"
+header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:

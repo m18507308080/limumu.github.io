@@ -4,7 +4,7 @@ title:      "如何给服务器安装操作系统？"
 subtitle:   "Linux & Docker & CentOS 如何和谐共存"
 date:       2017-02-12 10:00:00
 author:     "李牧牧"
-header-img: "http://cdn.static.limumu.me/assets:img:home-bg.jpg"
+header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -20,7 +20,7 @@ tags:
 
 > 把大象装进冰箱里只需要三步：打开冰箱、把大象塞进去、把冰箱门关上，安装操作系统也是如此，差别只是：选择什么样的冰箱、怎么优雅的塞进去、如何制定使用规则。
 
- ![](http://cdn.static.limumu.me/assets:post:img:201705161323000.jpg)
+ ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323000.jpg)
 
 我们选择 CentOS Linux 作为硬件服务器操作系统，并且部署 Docker 实现容器虚拟化，在这之前，先关注如下几篇文章：
 
@@ -63,30 +63,30 @@ tags:
 通常物理服务器购买来就自带了操作系统，这就需要我们将自带的操作系统以及之前的分区方案一并删除，我们需要借助《老毛桃U盘启动盘制作工具》进行删除操作，当然首先需要在自己的个人电脑中安装此工具，然后插入U盘，启老毛桃U盘制作工具软件，在操作界面选择需要操作的 U盘，其他选择默认即可，然后点击一键制作功能。
 
 
-![](http://cdn.static.limumu.me/assets:post:img:201705161323001.jpg)
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323001.jpg)
 
-![](http://cdn.static.limumu.me/assets:post:img:201705161323002.jpg)
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323002.jpg)
 
 到这里我们成功的安装了U盘工具，一般称它为U盘PE工具系统，有了它就可以删除服务器自带操作系统和分区的工具了，接下来需要将服务器的 `BIOS` 设置为开机时读取 U盘数据，每台品牌计算机都有默认的快捷设置按钮，只需在开机时不停的敲入对应按钮就可以直接进入U盘PE工具系统。
 
  [各品牌电脑开机启动菜单快捷键](http://blog.sina.com.cn/s/blog_52330bed01010yw9.html "各品牌电脑开机启动菜单快捷键")  - 来源 lxing20
 
- ![](http://cdn.static.limumu.me/assets:post:img:201705161323003.jpg)
+ ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323003.jpg)
 
  
 
 >  因为每个版本的老毛桃工具界面会有变化，只要选择类似 进入PE系统的选项敲回车即可，上图选择 02 选项。
 
 
- ![](http://cdn.static.limumu.me/assets:post:img:201705161323006.jpg)
+ ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323006.jpg)
 
- ![](http://cdn.static.limumu.me/assets:post:img:201705161323007.jpg)
+ ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323007.jpg)
 
 上图中将 `HD0` 硬盘中的所有主分区与扩张分区全部删除，图中删除本地磁盘C与扩张分区，到这里已经成功将服务器自带的操作系统与分区抹除，接下来就可以安装 `CentOS` 了，首先回到个人PC电脑端，将 插在服务器的U盘插入到 PC个人电脑中，打开老毛桃工具，选择 `ISO`模式，选择插入的U盘，选择下载好的`CentOS`镜像文件，点击制作并确认格式化模式对话框。
 
-  ![](http://cdn.static.limumu.me/assets:post:img:201705161323008.jpg)
+  ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323008.jpg)
 
-  ![](http://cdn.static.limumu.me/assets:post:img:201705161323009.jpg)
+  ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323009.jpg)
 
 写入的过程有点缓慢，`USB 3.0` 的U盘写入速度会快一些，这里需要注意几个问题：
 
@@ -98,7 +98,7 @@ tags:
 
 如果一切正常，开始安装操作系统，同样的将U盘插入服务器，并根据品牌选择启动项快捷键，进入到 `CentOS` 安装界面。
 
-  ![](http://cdn.static.limumu.me/assets:post:img:201705161323010.jpg)
+  ![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323010.jpg)
 
  [CentOS 图形化安装教程](http://www.centoscn.com/image-text/setup/2014/0724/3342.html "CentOS 图形化安装教程")  - 来源 CentOSCN
 

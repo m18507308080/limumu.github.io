@@ -4,7 +4,7 @@ title:      "如何一键部署GitLab代码版本管理平台？"
 subtitle:   ""
 date:       2017-02-09 10:00:00
 author:     "李牧牧"
-header-img: "http://cdn.static.limumu.me/assets:img:home-bg.jpg"
+header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -25,7 +25,7 @@ tags:
 # 工欲利其事，必先利其器
 
 
-![](http://cdn.static.limumu.me/assets:post:img:201705161323015.jpg)
+![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705161323015.jpg)
 
 
 > 什么是 `BitNami` ？
