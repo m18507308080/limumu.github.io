@@ -9,7 +9,6 @@ header-mask: 0.1
 catalog:    true
 tags:
     - 阿里云
-    - 混合云
 ---
 
 > 本文发布于 [李牧牧的博客](http://limumu.me) 转载请保留链接 ;)
