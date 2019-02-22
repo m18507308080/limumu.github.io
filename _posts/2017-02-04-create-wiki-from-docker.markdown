@@ -4,7 +4,7 @@ title:      "如何使用Docker部署Wiki文档协助系统？"
 subtitle:   ""
 date:       2017-02-04 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -19,13 +19,13 @@ tags:
 
 > **DokuWiki**是一个开源wiki引擎程序，运行于PHP环境下。Doku Wiki 程序小巧而功能强大、灵活，适合中小团队和个人网站知识库的管理。
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171650wiki.jpeg)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171650wiki.jpeg)
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171651wiki.jpeg)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171651wiki.jpeg)
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171661wiki.jpeg)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171661wiki.jpeg)
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171662wiki.jpeg)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171662wiki.jpeg)
 
 
 # 工欲利其事，必先利其器

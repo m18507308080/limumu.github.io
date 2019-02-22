@@ -4,7 +4,7 @@ title:      "如何配置阿里云SLB负载均衡并连通服务器？"
 subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-01-28 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -28,14 +28,14 @@ tags:
 
 >  配置阿里云负载均衡时，必须选择与ECS服务器相同的区域，如果用户访问量起伏较大，就选择按流量计费，另外配置项里需要勾选健康检查选项。
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170401_slb.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:20170401_slb.png)
 阿里云SLB负载均衡运行图  *图片来源: 李牧牧博客* 
 
 
 
 >  前端协议[80/443]端口，80给普通服务调用，443给HTTPS证书调用。笔者将后端服务器端口根据业务区分，比如基础服务是18001、支付服务是18002，如果基础业务集群需要加服务器，只需要加入一台18001对外端口的服务器就好了。
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170401_slb_ecs.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:20170401_slb_ecs.png)
 阿里云SLB负载均衡后端监听配置运行图  *图片来源: 李牧牧博客* 
 
 

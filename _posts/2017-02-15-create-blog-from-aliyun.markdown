@@ -4,7 +4,7 @@ title:      "十分钟免费搭建博客网站"
 subtitle:   "零成本自建个人博客的正确打开方式"
 date:       2017-02-15 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -22,7 +22,7 @@ tags:
 
 > 笔者博客代码的存放与解析服务归功于`GitHub`与`GitPage`的鼎力配合，资源文件的快速加载与内容分发归功于`七牛云存储`，感谢`Coding`充当了`GitHub`与`百度爬出`之间的润滑剂，很幸运能免费体验到`百度自适应打点`、`百度多渠道分享`、`搜狐评论畅言`、`搜狐畅言打赏`，感谢博客灵魂`Jekyll`让笔者能轻松的使用`Markdown`撰写文章，感谢博客域名的引路人`阿里云`。 [李牧牧的博客](http://limumu.me) 
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061301.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061301.png)
 
 ##### 关于模版
 
@@ -51,26 +51,26 @@ tags:
 
 #####  支付宝、微信打赏
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061302.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061302.png)
 
 
 #####  高速页面资源加载
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061303.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061303.png)
 
 
 #####  全国网络访问测速
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061304.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061304.png)
 
 #####  国际网络访问测速
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061305.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061305.png)
 
 
 #####  百度爬虫收录情况
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061306.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061306.png)
 
 
 # 十分钟倒计时开始
@@ -108,7 +108,7 @@ tags:
 - [x] head.html
 - [x] offilne.html
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061307.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061307.png)
 
 > 将修改后的文件提交至`GitHub`并将`CNAME`内容修改为`GitPage`提供的域名地址，如需要修改为自己的域名就还需要在域名提供商管理页将 `A纪录`修改为 `GitPage IP`地址，注意此时得到的`GitHub IP` 地址有能会变化，当出现访问不了博客的情况时，可以考虑是否是地址变了。
 
@@ -116,11 +116,11 @@ tags:
 ping username.github.io // 得到IP地址
 ```
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061309.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061309.png)
 
 > 由于 `GitHub`  屏蔽百度爬虫，所以百度收录不了博客文章，我们采用同时提交代码到`GitHub.com`与  `Coding.com`的办法让国内百度爬虫可以到`Coding.com`收录文章。
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:2017061308.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017061308.png)
 
 
 # Q&A

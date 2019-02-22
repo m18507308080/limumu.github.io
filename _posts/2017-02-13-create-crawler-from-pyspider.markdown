@@ -4,7 +4,7 @@ title:      "搭建基于轮询代理的高可用分布式动态网页爬虫"
 subtitle:   "Pyspider PhantomJS Squid ProxyPool SSDB MySQL Docker"
 date:       2017-02-13 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:

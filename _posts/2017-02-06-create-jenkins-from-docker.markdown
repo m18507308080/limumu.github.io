@@ -4,7 +4,7 @@ title:      "如何使用Docker安装Jenkins？"
 subtitle:   ""
 date:       2017-02-06 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -20,7 +20,7 @@ tags:
 
 > Jenkins的主要目标是监控软件开发流程，快速显示问题。所以能保证开发人员以及相关人员省时省力提高开发效率。
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171115001.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171115001.png)
 
 # 工欲利其事，必先利其器
 
@@ -39,15 +39,15 @@ docker run -e TZ=Asia/Shanghai -d --name jenkins -p 192.168.200.200:80:8080 -v /
 
 `Docker` 中`venizeng/jenkins` 的版本自带`Git`，如果想自行安装只需要在 `Jenkins` 所在系统手动安装 `Git` 配置好环境变量，然后在 `Git installations` 选项中将 `Path to Git executable` 填写为 git 即可。
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171650git.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171650git.png)
 
 > 配置 xCode 支持 IOS 打包编译
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171650xcode.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171650xcode.png)
 
 > 配置 Android-SDK 支持 Android 打包编译
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171650anzhuo.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171650anzhuo.png)
 
 > 配置 JDK 
 
@@ -57,17 +57,17 @@ docker run -e TZ=Asia/Shanghai -d --name jenkins -p 192.168.200.200:80:8080 -v /
 
 将修改好的`Maven Setting.xml` 文件放入 `Jenkins` 所在系统目录中 `/usr/local/etc/setting.xml`，在 `Maven Configuration` 中 `File Path` 填写`Setting.xml` 文件绝对路径
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171650maven.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171650maven.png)
 
 > 权限分配
 
 如果想控制不同类型用户只能操作特定的项目，需要配置 `Configure Global Security` 与 `Manage and Assign Roles `即可。
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171650se1.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171650se1.png)
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171650se2.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171650se2.png)
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:201705171650se3.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705171650se3.png)
 
 > 项目发包脚本参考
 

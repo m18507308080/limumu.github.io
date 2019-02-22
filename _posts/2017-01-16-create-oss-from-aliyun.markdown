@@ -4,7 +4,7 @@ title:      "如何部署阿里云OSS分片存储系统并配置专属域名？"
 subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-01-16 10:00:00
 author:     "李牧牧"
-header-img: "http://onb688cva.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -38,9 +38,9 @@ OSS支持日志存储，日志文件可以存储在自建的Bucket中。
 
 OSS跨域设置，将GET*，*POST*，*PUT*，*DELETE*，*HEAD全部放开。
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_create_oss.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:20170405_create_oss.png)
 
-![](http://onb688cva.bkt.clouddn.com/assets:post:img:20170405_create_oss_plugin.png)
+![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:20170405_create_oss_plugin.png)
 
 
 
