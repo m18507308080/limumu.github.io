@@ -4,7 +4,7 @@ title:      "如何零成本构建研发运维一体化？"
 subtitle:   "《推蜜》《蜜蜂少女队》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-02-18 10:00:00
 author:     "李牧牧"
-header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pqcjj2s3l.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -24,7 +24,7 @@ tags:
 
 # 知己知彼，百战不殆
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017041801_devops.png?imageView2/0/q/75|watermark/2/text/5p2O54mn54mnIGxpbXVtdS5tZQ==/font/5b6u6L2v6ZuF6buR/fontsize/520/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:2017041801_devops.png?imageView2/0/q/75|watermark/2/text/5p2O54mn54mnIGxpbXVtdS5tZQ==/font/5b6u6L2v6ZuF6buR/fontsize/520/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim)
 ***公司运维架构资源分配图***  *图片来源: 李牧牧博客* 
 
 我们窥探一只互联网小团队他们的运维系统功能清单
@@ -44,13 +44,13 @@ tags:
 
 > 传统软件企业的软件产品从无到有流程相对繁琐，对于需要快速开发迭代的初创互联网企业来说，时间线拉得有点太长。
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017041705_aliyun.png)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:2017041705_aliyun.png)
 
 
 
 > 往往一家互联网小团队会采用如下方式
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017041706_aliyun.png)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:2017041706_aliyun.png)
 
 
 

@@ -4,7 +4,7 @@ title:      "如何部署分布式Docker容器服务？"
 subtitle:   ""
 date:       2017-02-11 10:00:00
 author:     "李牧牧"
-header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pqcjj2s3l.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -21,7 +21,7 @@ tags:
 我们使用`Docker`的第一步，应该是获取一个官方的镜像，例如`mysql`、`wordpress`，基于这些基础镜像我们可以开发自己个性化的应用。我们可以使用`Docker`命令行工具来下载官方镜像。
 但是因为网络原因，我们下载一个300M的镜像需要很长的时间，甚至下载失败。因为这个原因，阿里云容器`Hub`服务提供了官方的镜像站点加速官方镜像的下载速度。
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705161323013.jpg)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:201705161323013.jpg)
 
 > 下载阿里云`Docker`加速器 
 
@@ -100,7 +100,7 @@ curl -sSL http://acs-public-mirror.oss-cn-hangzhou.aliyuncs.com/docker-engine/in
 
 > 安装 `Docker` 集中化 `Web` 可视化管理平台 `Shipyard`
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705161323011.jpg)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:201705161323011.jpg)
 
 
 
@@ -132,7 +132,7 @@ docker run -ti -d --restart=always --name shipyard-swarm-manager swarm:latest \m
 docker run -ti -d --restart=always --name shipyard-swarm-agent swarm:latest join --addr 192.168.200.6:2375 etcd://192.168.200.5:4001
 ```
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:201705161323012.jpg)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:201705161323012.jpg)
 
 [ 如何部署 Docker Shipyard？](http://www.jianshu.com/p/f9f855f8f3f4 "如何部署 Docker Shipyard？")  - 来源 简书
 

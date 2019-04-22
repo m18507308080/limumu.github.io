@@ -4,7 +4,7 @@ title:      "如何使用Docker安装数据库？"
 subtitle:   ""
 date:       2017-02-07 10:00:00
 author:     "李牧牧"
-header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pqcjj2s3l.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:

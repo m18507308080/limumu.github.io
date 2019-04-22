@@ -4,7 +4,7 @@ title:      "如何配置阿里云CDN内容分发网络？"
 subtitle:   "《推蜜》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-01-08 10:00:00
 author:     "李牧牧"
-header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pqcjj2s3l.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -31,7 +31,7 @@ tags:
 源站类型有IP、OSS域名、源站域名
 加速区域
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:20170405_create_cdn.png)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:20170405_create_cdn.png)
 
 
 

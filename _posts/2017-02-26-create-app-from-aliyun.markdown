@@ -4,7 +4,7 @@ title:      "如何低成本搭建百万用户级APP？"
 subtitle:   "《推蜜》《蜜蜂少女队》官方互动养成APP，借力《阿里云》从零到壹的演变"
 date:       2017-02-26 10:00:00
 author:     "李牧牧"
-header-img: "http://pnbk67adq.bkt.clouddn.com/assets:img:home-bg.jpg"
+header-img: "http://pqcjj2s3l.bkt.clouddn.com/assets:img:home-bg.jpg"
 header-mask: 0.1
 catalog:    true
 tags:
@@ -34,7 +34,7 @@ tags:
 
 # 困境
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017041701_aliyun.png)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:2017041701_aliyun.png)
 
 应用上线之初，需要给移动端、H5前端、网站电商提供后端数据服务，那么服务器的稳定性、服务负载能力、资源存储能力、CDN内容分发网络、可扩容数据库、数据融灾备份还原、日志短信预警、网络安全组分配等，都是保证应用稳定、快速的基本配置。
 
@@ -48,7 +48,7 @@ tags:
 
 # 什么服务是烧钱的货？
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017041702_aliyun.png)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:2017041702_aliyun.png)
 
 >CDN就是互联网版的悍马，用户流量的增长好比踩油门，车子一旦发动就好像副驾驶坐着一大美女端着大把钞票，一张一张的朝窗外丢。
 
@@ -77,7 +77,7 @@ tags:
 
 # 为什么要借力阿里云？
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017041703_aliyun.png)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:2017041703_aliyun.png)
 
 站在巨人的肩膀上， “双十一” 每秒14万笔交易，“12306” 改善的背后是阿里云在支撑；对于精简初创的互联网企业来说，即控制成本又做到产品的快速稳定迭代，阿里云的产品基本都能满足需求。
 
@@ -88,7 +88,7 @@ tags:
 
 # 如何部署高可用的云系统？
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:20170327174031.png?imageView2/0/q/75|watermark/2/text/5p2O54mn54mnIGxpbXVtdS5tZQ==/font/5b6u6L2v6ZuF6buR/fontsize/520/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:20170327174031.png?imageView2/0/q/75|watermark/2/text/5p2O54mn54mnIGxpbXVtdS5tZQ==/font/5b6u6L2v6ZuF6buR/fontsize/520/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim)
 ***阿里云生产架构资源分配图***  *图片来源: 李牧牧博客* 
 
 
@@ -178,7 +178,7 @@ tags:
 
 # 百万用户的应用开销多少？
 
-![](http://pnbk67adq.bkt.clouddn.com/assets:post:img:2017041704_aliyun.png)
+![](http://pqcjj2s3l.bkt.clouddn.com/assets:post:img:2017041704_aliyun.png)
 
 > 注：CDN费用由当月用户量流量大小决定，400元-4000元每月的情况都有，当然相对收益，流量费就不算多了。
 
